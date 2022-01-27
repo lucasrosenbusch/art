@@ -1,0 +1,30 @@
+---
+title: "Assignment_3_2_3_Q2"
+output: html_document
+---
+
+### Explanation
+
+
+```{r, echo=FALSE, warning = FALSE, error = FALSE, message = FALSE}
+library(art)
+art(10,10)
+
+```
+If you want to create art like this you can simply use the new package **art**.  
+You can install the package like that:
+```{r, eval = FALSE}
+library(devtools)
+install_github('lucasrosenbusch/art')
+```
+To create the art, you simply call the art-function from the art package.  
+The art function takes the x- and y-dimension of your art piece and will create your art accordignly.
+```{r, eval = FALSE}
+art(x_dim, y_dim)
+```
+You can also check the help page for the art:
+```{r, eval = FALSE}
+?art
+```
+
+
